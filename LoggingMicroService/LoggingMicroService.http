@@ -1,0 +1,6 @@
+@LoggingMicroService_HostAddress = http://localhost:5120
+
+POST {{LoggingMicroService_HostAddress}}/PostLogMessage/
+Accept: application/json
+
+###
