@@ -1,6 +1,12 @@
-@LoggingMicroService_HostAddress = http://localhost:5120
+@LoggingMicroService_HostAddress = http://localhost:8080
 
-POST {{LoggingMicroService_HostAddress}}/PostLogMessage/
-Accept: application/json
+POST {{LoggingMicroService_HostAddress}}/Log
+Content-Type: application/json
+
+{
+    "date": "2023-05-10",
+    "id": 30,
+    "text": "Test"
+}
 
 ###
