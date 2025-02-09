@@ -5,11 +5,13 @@ This microservice is built as a web API exposing one endpoint called /Log.
 
 The messages that can be sent to this API must be in a JSON format following the following structure :
 
+```
 {
   "id": integer,
   "text": string of maximum 255 characters,
   "date": "yyyy-mm-dd"
 }
+```
 
 A Log folder will be created with two log files.
 One is for the message sent by external services and the other is for the log of the current service.
