@@ -21,6 +21,12 @@ Please make sure you have the prequisites installed:
 
 .net sdk: 9.0.102
 
+### Test coverage
+
+```
+dotnet test
+```
+
 ### Docker
 
 The main service project contains a docker file located at LoggingMicroService/Dockerfile.
